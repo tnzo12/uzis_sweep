@@ -53,10 +53,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ ESC      │  7       │  8       │  9       │  -       │   │ LBKT     │ HOME     │ UP       │ END      │          │
-            &kp ESC     &kp N7     &kp N8     &kp N9     &MINUS        &kp LBKT   &kp HOME   &kp UARW  &kp END    &trans
+            &kp ESC     &kp N7     &kp N8     &kp N9     &kp MINUS     &kp LBKT   &kp HOME   &kp UARW   &kp END    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │  4       │  5       │  6       │  =       │   │ RBKT     │ LEFT     │ DOWN     │ RIGHT    │  ' "     │
-            &trans      &kp N4     &kp N5     &kp N6     &EQUAL        &kp RBKT   &kp LARW   &kp DARW   &kp RARW   &kp SQT
+        //│          │  4       │  5       │  6       │  =       │   │ RBKT     │ LEFT     │ DOWN     │ RIGHT    │ ' "      │
+            &trans      &kp N4     &kp N5     &kp N6     &kp EQUAL     &kp RBKT   &kp LARW   &kp DARW   &kp RARW   &kp SQT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ BSLH     │  1       │  2       │  3       │  0       │   │          │          │          │          │          │
             &kp BSLH    &kp N1     &kp N2     &kp N3     &kp N0         &trans     &trans     &trans     &trans     &trans
