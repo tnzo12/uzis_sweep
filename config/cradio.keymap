@@ -7,7 +7,7 @@
 
 // Home row mods macro
 #define HRML(k1,k2,k3,k4) &ht LSHFT k1  &ht LALT k2  &ht LGUI k3  &ht LCTRL k4
-#define HRMR(k1,k2,k3,k4) &ht RCTRL k1  &ht RGUI k2  &ht RALT k3  &ht RSHFT k4
+#define HRMR(k1,k2,k3,k4) &ht LCTRL k1  &ht RGUI k2  &ht RALT k3  &ht RSHFT k4
 
 / {
     behaviors {
@@ -24,10 +24,10 @@
 
     combos {
         compatible = "zmk,combos";
-        combo_esc {
+        combo_ralt {
             timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
+            key-positions = <16 17>;
+            bindings = <&kp RALT>;
         };
     };
 
