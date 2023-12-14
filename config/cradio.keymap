@@ -53,10 +53,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ ESC      │  7       │  8       │  9       │  -       │   │ LBKT     │ HOME     │ UP       │ END      │          │
-            &kp ESC     &kp N7     &kp N8     &kp N9     &kp MINUS     &kp LBKT   &kp HOME   &kp UARW   &kp END    &trans
+            &kp ESC     &kp N7     &kp N8     &kp N9     &kp MINUS     &kp LBKT   &kp HOME   &kp UP     &kp END    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │  4       │  5       │  6       │  =       │   │ RBKT     │ LEFT     │ DOWN     │ RIGHT    │ ' "      │
-            &trans      &kp N4     &kp N5     &kp N6     &kp EQUAL     &kp RBKT   &kp LARW   &kp DARW   &kp RARW   &kp SQT
+            &trans      &kp N4     &kp N5     &kp N6     &kp EQUAL     &kp RBKT   &kp LEFT   &kp DOWN   &kp RIGHT  &kp SQT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ BSLH     │  1       │  2       │  3       │  0       │   │          │          │          │          │          │
             &kp BSLH    &kp N1     &kp N2     &kp N3     &kp N0         &trans     &trans     &trans     &trans     &trans
@@ -76,7 +76,7 @@
             &trans     &trans     &trans     &trans     &trans         &kp F5      &kp F6     &kp F7     &kp F8    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │ F1       │  F2      │  F3      │  F4      │          │
-            &trans     &trans     &trans     &trans     &trans         &kp F1      &kp F2     &kp F3     &kp F4     &trans
+            &trans     &trans     &trans     &trans     &trans         &kp F1      &kp F2     &kp F3     &kp F4    &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
