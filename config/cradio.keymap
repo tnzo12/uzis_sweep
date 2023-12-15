@@ -65,7 +65,7 @@
             &kp ESC     &kp N7     &kp N8     &kp N9     &kp MINUS     &kp LBKT   &kp HOME   &kp UP     &kp END    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │  4       │  5       │  6       │  =       │   │ RBKT     │ LEFT     │ DOWN     │ RIGHT    │ ' "      │
-            &trans      &kp N4     &kp N5     &kp N6     &kp EQUAL     &kp RBKT   &kp LEFT   &kp DOWN   &kp RIGHT  &kp SQT
+            HRML(A,     N4,        N5,        N6)        &kp EQUAL     &kp RBKT   HRMR(LEFT, DOWN,      RIGHT,     SQT)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ BSLH     │  1       │  2       │  3       │  0       │   │          │          │          │          │          │
             &kp BSLH    &kp N1     &kp N2     &kp N3     &kp N0         &trans     &trans     &trans     &trans     &trans
