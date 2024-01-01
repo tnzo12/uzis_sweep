@@ -68,9 +68,9 @@
             HRML(A,     N4,        N5,        N6)        &kp EQUAL     &kp RBKT   HRMR(LEFT, DOWN,      RIGHT,     SQT)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ BSLH     │  1       │  2       │  3       │  0       │   │          │          │          │          │          │
-            &kp BSLH    &kp N1     &kp N2     &kp N3     &kp N0         &trans     &trans     &trans     &trans     &trans
+            &kp BSLH    &kp N1     &kp N2     &kp N3     &kp GRAVE     &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &kp GRAVE   &kp ESC        &trans     &kp DEL
+                                             &kp N0      &kp ESC       &trans     &kp DEL
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
