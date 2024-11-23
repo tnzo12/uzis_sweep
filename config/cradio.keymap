@@ -51,9 +51,9 @@ compatible = "zmk,behavior-macro";
 label = "ZM_langhold";
 #binding-cells = <0>;
 bindings
-= <¯o_press &kp RALT>
-, <¯o_pause_for_release>
-, <¯o_release &kp RALT>
+= <macro_press &kp RALT>
+, <macro_pause_for_release>
+, <macro_release &kp RALT>
 ;
 };
 };
