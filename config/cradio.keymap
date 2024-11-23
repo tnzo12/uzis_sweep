@@ -8,6 +8,7 @@
 // Home row mods macro
 #define HRML(k1,k2,k3,k4) &ht LSHFT k1  &ht LALT k2  &ht LGUI k3  &ht LCTRL k4
 #define HRMR(k1,k2,k3,k4) &ht LCTRL k1  &ht RGUI k2  &ht RALT k3  &ht RSHFT k4
+#define HOLANG(k1) &ht langhold k1
 
 / {
     behaviors {
@@ -44,6 +45,15 @@
         };
     };
 
+    macros {
+        langhold: langhold {
+            compatible = "zmk,behavior-macro";
+            label = "ZM_langhold";
+            #binding-cells = <0>;
+            bindings = <&macroo_press &kp CAPS>, <&macro_pause_for_release>, <&macro_release &kp CAPS>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
         default_layer {
@@ -58,7 +68,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &kp TAB    &lt 1 SPACE    &lt 1 ENTER &lt 2 BSPC
+                                            &kp HOLANG  &lt 1 SPACE    &lt 1 ENTER &lt 2 BSPC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
