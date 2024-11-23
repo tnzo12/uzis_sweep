@@ -49,7 +49,10 @@
             compatible = "zmk,behavior-macro";
             label = "ZM_langhold";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp CAPS>, <&macro_pause_for_release>, <&macro_release &kp CAPS>;
+            bindings
+                = <&macro_press &kp CAPS>,
+                <&macro_pause_for_release>,
+                <&macro_release &kp CAPS>;
         };
     };
 
