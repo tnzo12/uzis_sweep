@@ -44,18 +44,6 @@
         };
     };
 
-    macros {
-        langhold: langhold {
-            compatible = "zmk,behavior-macro";
-            label = "ZM_langhold";
-            #binding-cells = <0>;
-            bindings
-            = <¯o_press &kp RALT>
-            , <¯o_pause_for_release>
-            , <¯o_release &kp RALT>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
         default_layer {
@@ -70,7 +58,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &kp TAB  &lt 1 SPACE    &lt 1 ENTER &lt 2 BSPC
+                                            &kp TAB    &lt 1 SPACE    &lt 1 ENTER &lt 2 BSPC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
